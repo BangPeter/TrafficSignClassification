@@ -24,7 +24,7 @@ Make sure you have the latest version of python installed, with a IDE capable of
 Each code block can be run in sequential order, and the model should work. Training time may vary depending on dataset size and number of epochs.
 
 ## DATA
-Data (image_names.csv) is stored in the in the Project2 folder in the [Google Drive link](https://drive.google.com/drive/folders/1t95iHN5Yjhsas3PWvepcH_d1jYshHVLU).
+Data (image_names1.csv) is stored in the in the Project2 folder in the [Google Drive link](https://drive.google.com/drive/folders/1t95iHN5Yjhsas3PWvepcH_d1jYshHVLU).
 
 | **File**       | **File Type**     | **Description** | **Size**   |  **Color Space** |
 |--------------|-----------|------------|-----------|------------|
