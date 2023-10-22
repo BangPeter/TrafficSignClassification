@@ -1,5 +1,3 @@
-Data: https://drive.google.com/drive/folders/1t95iHN5Yjhsas3PWvepcH_d1jYshHVLU?usp=sharing
-
 Utilizing a Convolutional Neural Network to create an Image Classification model for autonomous vehicles.
 
 ## Contents
@@ -32,7 +30,7 @@ Data (image_names.csv) is stored in the in the Project2 folder in the [Google Dr
 
 | **File**       | **File Type**     | **Description** | **Size**   |  **Color Space** |
 |--------------|-----------|------------|-----------|------------|
-| Image | JPG  | Images of Traffic SIgns and Surrounding Location      | Width, Height | RGB |
+| Image | JPG  | Images of Traffic Signs and Surrounding Location      | Width, Height | RGB |
 | Annontation| JSON  | Annotations that Provide Labels, Width, Height, Bounding Box Dimensions, etc for the Images     | Width, Height | N/A |
 
 Data was split into a training set and testing set for a total of 1500 rows. The training set contained 25000 rows and was used to train the model. The testing set contained 10000 rows and was used to test the results of the model.
@@ -40,8 +38,9 @@ Data was split into a training set and testing set for a total of 1500 rows. The
 ## FIGURES
 | **Figure**       | **Description**     | **Takeaways** |
 |--------------|-----------|------------|
-| String Length Frequency by Language | Bar chart displaying the frequencies of string length in phrases grouped by language | There are significantly more shorter and mid-sized English phrases than French phrases and there are significantly more longer French phrases than English phrases. There are no English phrases in our dataset with 25 or more characters, but there are a notable amount of French phrases.   |
-| Distribution of String Length by Language | Boxplots displaying the distribution of string length by language  |   French phrases have a slightly higher median length (at around 21 characters) than English phrases (at around 17 characters). The French phrases also seem to have a slightly wider distribution in string length (i.e. longer phrases) than English phrases, as its interquartile range seems to be larger and its maximum length is also higher. |
+| Sampling of Traffic Sign Images | Display of some images from the data set | N/A   |
+| Histogram of Image Height | Histogram displaying the distribution of image heights in the data set  |   A majority of pictures have a height around 2500px or 3000px, with a significant gap between those to bins. This is due to a lack of picture sizes that fit a height between 2500-3000px. |
+| Histogram of Image Width | Histogram displaying the distribution of image widths in the data set   | Image widths are more closely grouped together from the 3000-5000px range. This not only shows that images are typically wider on average, by comaring the distributions to the image hieght graph, but it also reveals that images tend to fit a more normal distribution pattern in terms of width.
 
 ## REFERENCES
 [1]	“The Importance of Robust Algorithms for Autonomous Vehicle’s,” www.linkedin.com. https://www.linkedin.com/pulse/importance-robust-algorithms-avs-a-ernesto-aguilar/  (accessed Oct. 08, 2023). 
