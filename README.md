@@ -3,8 +3,6 @@ Utilizing a Convolutional Neural Network to create an Image Classification model
 ## Contents
 SRC folder - containing source code for our EDA and model.
 
-DATA folder - containing our dataset.
-
 FIGURES folder - containing figures/visualizations of our data.
 
 LICENSE.md - MIT License.
