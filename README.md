@@ -29,7 +29,7 @@ Data (image_names.csv) is stored in the in the Project2 folder in the [Google Dr
 | **File**       | **File Type**     | **Description** | **Size**   |  **Color Space** |
 |--------------|-----------|------------|-----------|------------|
 | Image | JPG  | Images of Traffic Signs and Surrounding Location      | Width, Height | RGB |
-| Annotation| JSON  | Annotations that Provide Labels, Width, Height, Bounding Box Dimensions, etc for the Images     | Width, Height | N/A |
+| Annotation | JSON  | Annotations that Provide Labels, Width, Height, Bounding Box Dimensions, etc for the Images     | Width, Height | N/A |
 
 Data was split into a training set and testing set for a total of 1500 rows. The training set contained 1050 rows and was used to train the model. The testing set contained 450 rows and was used to test the results of the model.
 
@@ -39,6 +39,8 @@ Data was split into a training set and testing set for a total of 1500 rows. The
 | Sampling of Traffic Sign Images | Display of some images from the data set | There are a multitude of sign types, which implies that our data is varied. There are also several varied environments on the road where traffic signs might not be readily apparent. The time of day in these images varies as well, but the lighting is generally bright enough to read the signs. The languages on each sign varies as well, so our model will be predicting road signs from all over the globe rather than locally, which could potentially lower accuracy due to increased class types. |
 | Histogram of Image Height | Histogram displaying the distribution of image heights in the data set  |   A majority of pictures have a height around 2500px or 3000px, with a significant gap between those to bins. This is due to a lack of picture sizes that fit a height between 2500-3000px. |
 | Histogram of Image Width | Histogram displaying the distribution of image widths in the data set   | Image widths are more closely grouped together from the 3000-5000px range. This not only shows that images are typically wider on average, by comaring the distributions to the image hieght graph, but it also reveals that images tend to fit a more normal distribution pattern in terms of width. |
+| Training Accuracy of the Model | Graph of training accuracy of model as the number of epochs increases | The training accuracy increases from around 0.50 to around 0.75 as as the number of epochs increases from 0 to 45. |
+| Training Loss of the Model | Graph of training loss of model as the number of epochs increases | The training loss decreases from around 2.4 to around 0.85 as the number of epochs increases from 0 to 45. |
 
 ## REFERENCES
 [1]	“The Importance of Robust Algorithms for Autonomous Vehicle’s,” www.linkedin.com. https://www.linkedin.com/pulse/importance-robust-algorithms-avs-a-ernesto-aguilar/  (accessed Oct. 08, 2023). 
