@@ -30,12 +30,12 @@ Each code block can be run in sequential order, and the model should work. Train
 ## DATA
 Data (image_names.csv) is stored in the in the Project2 folder in the Google Drive link.
 
-| **Column**       | **Type**     | **Description** |
-|--------------|-----------|------------|
-| English words/sentences | string  | An English word or sentence        |
-| French words/sentences | string  | The French translation of the English word or sentence       |
+| **File**       | **File Type**     | **Description** | **Size**   |  **Color Space** |
+|--------------|-----------|------------|-----------|------------|
+| Image | JPG  | Images of Traffic SIgns and Surrounding Location      | Width, Height | RGB |
+| Annontation| JSON  | Annotations that Provide Labels, Width, Height, Bounding Box Dimensions, etc for the Images     | Width, Height | N/A |
 
-Data was split into a training set and testing set for a total of 35000 rows. The training set contained 25000 rows and was used to train the model. The testing set contained 10000 rows and was used to test the results of the model.
+Data was split into a training set and testing set for a total of 1500 rows. The training set contained 25000 rows and was used to train the model. The testing set contained 10000 rows and was used to test the results of the model.
 
 ## FIGURES
 | **Figure**       | **Description**     | **Takeaways** |
